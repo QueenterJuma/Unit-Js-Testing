@@ -7,21 +7,21 @@ const stringLength = (string) => {
 
 const reverseString = (string) => string.split('').reverse().join('');
 
-const calculatorClass = {
+class CalculatorClass  {
   sum(x, y) {
     return x + y;
-  },
+  }
   subtraction(x, y) {
     return x - y;
-  },
+  }
   multiply(x, y) {
     return x * y;
-  },
+  }
   division(x, y) {
     return x / y;
-  },
-};
+  }
+}
 
 const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
-export { stringLength, reverseString, calculatorClass, capitalize };
+export { stringLength, reverseString, CalculatorClass, capitalize };
