@@ -1,0 +1,23 @@
+{
+  "name": "unit-js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QueenterJuma/Unit-Js-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QueenterJuma/Unit-Js-Testing/issues"
+  },
+  "homepage": "https://github.com/QueenterJuma/Unit-Js-Testing#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
+    "jest": "^29.4.3"
+  }
+}
