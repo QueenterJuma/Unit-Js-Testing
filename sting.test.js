@@ -55,7 +55,7 @@ describe("calculatorClass", () => {
       expect(calculatorClass.division(12 / 6)).toEqual(2);
     });
     test("division", () => {
-      expect(calculatorClass.division(10 / 2)).toEqual(5);
+      expect(calculatorClass.division(6 / 2)).toEqual(3);
     });
     test("division", () => {
       expect(calculatorClass.division(8 / 4)).toEqual(2);
