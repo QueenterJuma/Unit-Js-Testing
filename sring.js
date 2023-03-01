@@ -1,8 +1,8 @@
 const stringLength = (string) => {
   if (string.length >= 1 && string.length <= 10) {
-    return string.length
+    return string.length;
   }
-  return "Conditions are not met!";
+  return 'Conditions are not met!';
 };
 
 const reverseString = (string) => string.split('').reverse().join('');
@@ -24,4 +24,6 @@ const calculatorClass = {
 
 const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
-export { stringLength, reverseString, calculatorClass, capitalize };
+export {
+  stringLength, reverseString, calculatorClass, capitalize,
+};
